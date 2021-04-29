@@ -4,7 +4,7 @@
 -- Question 1: Citibike Stations
 
 --1A: what is the average station capacity?
---Answer : 31.53
+--Answer : 31.53 bikes
 -- Query 
 
   SELECT
@@ -14,7 +14,7 @@
 
 
 --1B: in the current data, what proportion of total bikes in the network are in use?
---Answer: 
+--Answer: 937 bikes
 --Query 
 
   SELECT 
