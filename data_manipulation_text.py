@@ -9,6 +9,8 @@ Created on Tue Apr 27 11:04:50 2021
 
 import pandas as pd
 
+df_original = pd.read_csv('./assets/stock_names.csv')
+
 # importing the dataset and 
 df_temp = pd.read_csv('./assets/stock_names.csv', delimiter=':', error_bad_lines=False)
 # resetting the default index and renaming it to Ticker
